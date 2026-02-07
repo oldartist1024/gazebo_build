@@ -1,0 +1,8 @@
+prefix=/home/xu/ROS/gazebo_build/install
+
+Name: world_build
+Description: Description of world_build
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

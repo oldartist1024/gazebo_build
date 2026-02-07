@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="simple_car">
+
+    <!-- 初始不固定（允许运动） -->
+    <static>false</static>
+
+    <!-- 车体 -->
+    <link name="base_link">
+      <pose>0 0 0.1 0 0 0</pose>
+
+      <!-- 碰撞体 -->
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.6 0.4 0.2</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <!-- 可视化 -->
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.6 0.4 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.2 0.2 0.8 1</ambient>
+          <diffuse>0.2 0.2 0.8 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- 惯性参数（必须有，否则物理会异常） -->
+      <inertial>
+        <mass>10.0</mass>
+        <inertia>
+          <ixx>0.2</ixx>
+          <iyy>0.2</iyy>
+          <izz>0.2</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyz>0</iyz>
+        </inertia>
+      </inertial>
+    </link>
+
+  </model>
+</sdf>

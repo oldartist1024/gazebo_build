@@ -1,0 +1,2 @@
+navigation_sim:urdf_gazebo:urdf_study:world_build:xacro_study
+-DCATKIN_DEVEL_PREFIX=/home/xu/ROS/gazebo_build/devel -DCMAKE_INSTALL_PREFIX=/home/xu/ROS/gazebo_build/install -G Unix Makefiles

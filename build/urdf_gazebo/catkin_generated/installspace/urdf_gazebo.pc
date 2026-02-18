@@ -1,4 +1,4 @@
-prefix=/home/xu/ROS/gazebo_build/install
+prefix=/home/xzh/gazebo_build/install
 
 Name: urdf_gazebo
 Description: Description of urdf_gazebo

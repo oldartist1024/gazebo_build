@@ -1,8 +1,8 @@
-# Install script for directory: /home/xu/ROS/gazebo_build/src/xacro_study
+# Install script for directory: /home/xzh/gazebo_build/src/xacro_study
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xu/ROS/gazebo_build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xzh/gazebo_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xu/ROS/gazebo_build/build/xacro_study/catkin_generated/installspace/xacro_study.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/gazebo_build/build/xacro_study/catkin_generated/installspace/xacro_study.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xacro_study/cmake" TYPE FILE FILES
-    "/home/xu/ROS/gazebo_build/build/xacro_study/catkin_generated/installspace/xacro_studyConfig.cmake"
-    "/home/xu/ROS/gazebo_build/build/xacro_study/catkin_generated/installspace/xacro_studyConfig-version.cmake"
+    "/home/xzh/gazebo_build/build/xacro_study/catkin_generated/installspace/xacro_studyConfig.cmake"
+    "/home/xzh/gazebo_build/build/xacro_study/catkin_generated/installspace/xacro_studyConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xacro_study" TYPE FILE FILES "/home/xu/ROS/gazebo_build/src/xacro_study/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xacro_study" TYPE FILE FILES "/home/xzh/gazebo_build/src/xacro_study/package.xml")
 endif()
 

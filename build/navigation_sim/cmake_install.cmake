@@ -1,8 +1,8 @@
-# Install script for directory: /home/xu/ROS/gazebo_build/src/navigation_sim
+# Install script for directory: /home/xzh/gazebo_build/src/navigation_sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xu/ROS/gazebo_build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xzh/gazebo_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xu/ROS/gazebo_build/build/navigation_sim/catkin_generated/installspace/navigation_sim.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/gazebo_build/build/navigation_sim/catkin_generated/installspace/navigation_sim.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_sim/cmake" TYPE FILE FILES
-    "/home/xu/ROS/gazebo_build/build/navigation_sim/catkin_generated/installspace/navigation_simConfig.cmake"
-    "/home/xu/ROS/gazebo_build/build/navigation_sim/catkin_generated/installspace/navigation_simConfig-version.cmake"
+    "/home/xzh/gazebo_build/build/navigation_sim/catkin_generated/installspace/navigation_simConfig.cmake"
+    "/home/xzh/gazebo_build/build/navigation_sim/catkin_generated/installspace/navigation_simConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_sim" TYPE FILE FILES "/home/xu/ROS/gazebo_build/src/navigation_sim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_sim" TYPE FILE FILES "/home/xzh/gazebo_build/src/navigation_sim/package.xml")
 endif()
 

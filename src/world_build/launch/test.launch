@@ -2,6 +2,7 @@
 
   <!-- 1. 使用仿真时间 -->
   <param name="use_sim_time" value="true"/>
+  <env name="GAZEBO_MODEL_PATH" value="$(find world_build)/models:$(optenv GAZEBO_MODEL_PATH)"/>
 
   <!-- 2. 启动 Gazebo 并加载 world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -14,8 +15,7 @@
 
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_usv"
       args="-sdf
-            -file $(find world_build)/models/test.sdf
+            -file $(find world_build)/models/us_military_camp/model.sdf
             -model usv_boat"/>
-
 
 </launch>

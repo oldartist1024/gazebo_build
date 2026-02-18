@@ -1,4 +1,4 @@
-prefix=/home/xu/ROS/gazebo_build/devel
+prefix=/home/xzh/gazebo_build/devel
 
 Name: xacro_study
 Description: Description of xacro_study

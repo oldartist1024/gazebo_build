@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xu/ROS/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xu/ROS/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ navigation_sim/CMakeFiles/geometry_msgs_generate_messages_py.dir/build: geometry
 .PHONY : navigation_sim/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 
 navigation_sim/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	cd /home/xu/ROS/gazebo_build/build/navigation_sim && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/xzh/gazebo_build/build/navigation_sim && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : navigation_sim/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 navigation_sim/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/xu/ROS/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xu/ROS/gazebo_build/src /home/xu/ROS/gazebo_build/src/navigation_sim /home/xu/ROS/gazebo_build/build /home/xu/ROS/gazebo_build/build/navigation_sim /home/xu/ROS/gazebo_build/build/navigation_sim/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/navigation_sim /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/navigation_sim /home/xzh/gazebo_build/build/navigation_sim/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation_sim/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

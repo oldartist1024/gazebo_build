@@ -1,8 +1,8 @@
-# Install script for directory: /home/xu/ROS/gazebo_build/src/urdf_study
+# Install script for directory: /home/xzh/gazebo_build/src/urdf_study
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xu/ROS/gazebo_build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xzh/gazebo_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xu/ROS/gazebo_build/build/urdf_study/catkin_generated/installspace/urdf1.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/gazebo_build/build/urdf_study/catkin_generated/installspace/urdf1.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf1/cmake" TYPE FILE FILES
-    "/home/xu/ROS/gazebo_build/build/urdf_study/catkin_generated/installspace/urdf1Config.cmake"
-    "/home/xu/ROS/gazebo_build/build/urdf_study/catkin_generated/installspace/urdf1Config-version.cmake"
+    "/home/xzh/gazebo_build/build/urdf_study/catkin_generated/installspace/urdf1Config.cmake"
+    "/home/xzh/gazebo_build/build/urdf_study/catkin_generated/installspace/urdf1Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf1" TYPE FILE FILES "/home/xu/ROS/gazebo_build/src/urdf_study/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf1" TYPE FILE FILES "/home/xzh/gazebo_build/src/urdf_study/package.xml")
 endif()
 

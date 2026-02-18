@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xu/ROS/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xu/ROS/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
 
 # Utility rule file for urdf1_xacro_generated_to_devel_space_.
 
@@ -63,10 +63,10 @@ urdf_study/CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/build: urdf1_xac
 .PHONY : urdf_study/CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/build
 
 urdf_study/CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/clean:
-	cd /home/xu/ROS/gazebo_build/build/urdf_study && $(CMAKE_COMMAND) -P CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
+	cd /home/xzh/gazebo_build/build/urdf_study && $(CMAKE_COMMAND) -P CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
 .PHONY : urdf_study/CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/clean
 
 urdf_study/CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/depend:
-	cd /home/xu/ROS/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xu/ROS/gazebo_build/src /home/xu/ROS/gazebo_build/src/urdf_study /home/xu/ROS/gazebo_build/build /home/xu/ROS/gazebo_build/build/urdf_study /home/xu/ROS/gazebo_build/build/urdf_study/CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/urdf_study /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/urdf_study /home/xzh/gazebo_build/build/urdf_study/CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urdf_study/CMakeFiles/urdf1_xacro_generated_to_devel_space_.dir/depend
 

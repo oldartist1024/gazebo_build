@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="us_military_camp">
+    <static>true</static>
+
+    <!-- 需要整体移动/旋转/缩放，就改这里 -->
+    <pose>0 0 0 0 0 0</pose>
+
+    <link name="link">
+      <visual name="visual">
+        <!-- 模型原始坐标系为 Y-up 时，用 X 轴旋转 -90° 让其“躺平” -->
+        <pose>0 0 0 -1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://us_military_camp/meshes/US_Military_Camp.obj</uri>
+            <!-- 单位不对就调 scale，比如 0.01 是常见“厘米->米” -->
+            <scale>1 1 1</scale>
+            <submesh>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <!-- 想要碰撞，就加 collision（如果模型很复杂会很卡） -->
+      <collision name="collision">
+        <!-- 与 visual 保持一致的旋转 -->
+        <pose>0 0 0 -1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://us_military_camp/meshes/us_military_camp.stl</uri>
+            <scale>1 1 1</scale>
+            <submesh>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

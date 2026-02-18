@@ -1,4 +1,4 @@
-prefix=/home/xu/ROS/gazebo_build/install
+prefix=/home/xzh/gazebo_build/install
 
 Name: world_build
 Description: Description of world_build

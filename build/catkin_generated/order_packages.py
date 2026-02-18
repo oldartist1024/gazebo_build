@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = '/home/xu/ROS/gazebo_build/src'
+source_root_dir = '/home/xzh/gazebo_build/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
 underlay_workspaces = '/opt/ros/noetic'.split(';') if '/opt/ros/noetic' != '' else []

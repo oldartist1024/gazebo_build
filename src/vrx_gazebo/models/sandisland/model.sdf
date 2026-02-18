@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="sandisland">
+    <static>true</static>
+
+    <!-- 抬高一点，防止模型在地面以下你看不见 -->
+    <pose>0 0 5 0 0 0</pose>
+
+    <link name="silink">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <!-- 推荐：放在 ~/.gazebo/models/sandisland/meshes/sandisland.dae -->
+            <uri>model://sandisland/meshes/sandisland.dae</uri>
+
+            <!-- 用 scale，不要用 size -->
+            <scale>30000 30000 4000</scale>
+          </mesh>
+        </geometry>
+
+        <!-- 强制给颜色，绕开 DAE 材质问题 -->
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- 先注释 collision，排除 ODE 碰撞网格卡死 -->
+      <!--
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>300 300 40</size>
+          </box>
+        </geometry>
+      </collision>
+      -->
+    </link>
+  </model>
+</sdf>

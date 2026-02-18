@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<sdf version="1.6" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <world name="sandisland">
+
+    <!-- 引入宏文件 -->
+    <xacro:include filename="$(find vrx_2019)/worlds/sandisland.xacro" />
+
+    <!-- 插入岛屿 -->
+    <xacro:sandisland />
+
+  </world>
+
+</sdf>

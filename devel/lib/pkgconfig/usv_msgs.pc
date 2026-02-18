@@ -1,0 +1,8 @@
+prefix=/home/xzh/gazebo_build/devel
+
+Name: usv_msgs
+Description: Description of usv_msgs
+Version: 0.0.1
+Cflags: -I/home/xzh/gazebo_build/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime std_msgs

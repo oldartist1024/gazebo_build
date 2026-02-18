@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="island_heightmap">
+    <static>true</static>
+
+    <link name="terrain">
+
+      <!-- 可视化 -->
+      <visual name="visual">
+        <geometry>
+          <heightmap>
+            <!-- 高度图 -->
+            <uri>model://sandisland_heightmap//heightmap.png
+            </uri>
+            <!-- 尺寸：X Y Z（米） -->
+            <size>300 300 40</size>
+
+            <!-- 高度图采样精度 -->
+            <pos>0 0 0</pos>
+
+            <!-- 贴图（可选） -->
+            <!-- <texture>
+              <diffuse>model://sandisland_heightmap/materials/textures/unnamed.jpg
+              </diffuse>
+              
+              <normal></normal>
+              <size>10</size>
+            </texture> -->
+
+            <!-- 地形分层（可选） -->
+            <blend>
+              <min_height>0</min_height>
+              <fade_dist>5</fade_dist>
+            </blend>
+          </heightmap>
+        </geometry>
+      </visual>
+
+      <!-- 碰撞（通常和 visual 一样） -->
+      <collision name="collision">
+        <geometry>
+          <heightmap>
+            <uri>model://sandisland_heightmap//heightmap.png
+            </uri>
+            <size>300 300 40</size>
+          </heightmap>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

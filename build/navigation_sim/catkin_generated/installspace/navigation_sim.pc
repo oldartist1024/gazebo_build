@@ -1,4 +1,4 @@
-prefix=/home/xu/ROS/gazebo_build/install
+prefix=/home/xzh/gazebo_build/install
 
 Name: navigation_sim
 Description: Description of navigation_sim

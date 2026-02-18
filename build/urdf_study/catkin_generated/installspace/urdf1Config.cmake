@@ -67,14 +67,14 @@ set(urdf1_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(urdf1_SOURCE_PREFIX /home/xu/ROS/gazebo_build/src/urdf_study)
-  set(urdf1_DEVEL_PREFIX /home/xu/ROS/gazebo_build/devel)
+  set(urdf1_SOURCE_PREFIX /home/xzh/gazebo_build/src/urdf_study)
+  set(urdf1_DEVEL_PREFIX /home/xzh/gazebo_build/devel)
   set(urdf1_INSTALL_PREFIX "")
   set(urdf1_PREFIX ${urdf1_DEVEL_PREFIX})
 else()
   set(urdf1_SOURCE_PREFIX "")
   set(urdf1_DEVEL_PREFIX "")
-  set(urdf1_INSTALL_PREFIX /home/xu/ROS/gazebo_build/install)
+  set(urdf1_INSTALL_PREFIX /home/xzh/gazebo_build/install)
   set(urdf1_PREFIX ${urdf1_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xu/ROS/gazebo_build/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/xzh/gazebo_build/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

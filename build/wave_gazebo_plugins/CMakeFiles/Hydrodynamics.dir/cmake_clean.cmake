@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/lib/libHydrodynamics.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libHydrodynamics.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libHydrodynamics.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libHydrodynamics.so"
   "CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o"
   "CMakeFiles/Hydrodynamics.dir/src/Geometry.cc.o"
   "CMakeFiles/Hydrodynamics.dir/src/PhysicalConstants.cc.o"

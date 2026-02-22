@@ -43,61 +43,61 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for dock_erb_generation.
 
 # Include the progress variables for this target.
 include vrx_gazebo/CMakeFiles/dock_erb_generation.dir/progress.make
 
-vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf
-vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf
-vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf
-vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf
-vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf
-vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf
+vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf
+vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf
+vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf
+vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf
+vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf
+vrx_gazebo/CMakeFiles/dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf
 
 
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf.erb
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/dock_generator.erb
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf"
-	cd /home/xzh/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2016/model.sdf.erb > /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf.erb
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/dock_generator.erb
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2016/model.sdf.erb > /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf
 
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf.erb
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/dock_generator.erb
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf"
-	cd /home/xzh/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2018/model.sdf.erb > /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf.erb
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/dock_generator.erb
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2018/model.sdf.erb > /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf
 
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf.erb
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/dock_generator.erb
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf"
-	cd /home/xzh/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2022/model.sdf.erb > /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf.erb
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/dock_generator.erb
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2022/model.sdf.erb > /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf
 
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf.erb
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/dock_generator.erb
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf"
-	cd /home/xzh/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2016_dynamic/model.sdf.erb > /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf.erb
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/dock_generator.erb
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2016_dynamic/model.sdf.erb > /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf
 
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf.erb
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/dock_generator.erb
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf"
-	cd /home/xzh/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2018_dynamic/model.sdf.erb > /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf.erb
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/dock_generator.erb
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2018_dynamic/model.sdf.erb > /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf
 
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf.erb
-/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/dock_generator.erb
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf"
-	cd /home/xzh/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2022_dynamic/model.sdf.erb > /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf.erb
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/dock_generator.erb
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo && /usr/bin/erb models/dock_2022_dynamic/model.sdf.erb > /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf
 
 dock_erb_generation: vrx_gazebo/CMakeFiles/dock_erb_generation
-dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf
-dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf
-dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf
-dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf
-dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf
-dock_erb_generation: /home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf
+dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf
+dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf
+dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf
+dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf
+dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf
+dock_erb_generation: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf
 dock_erb_generation: vrx_gazebo/CMakeFiles/dock_erb_generation.dir/build.make
 
 .PHONY : dock_erb_generation
@@ -108,10 +108,10 @@ vrx_gazebo/CMakeFiles/dock_erb_generation.dir/build: dock_erb_generation
 .PHONY : vrx_gazebo/CMakeFiles/dock_erb_generation.dir/build
 
 vrx_gazebo/CMakeFiles/dock_erb_generation.dir/clean:
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/dock_erb_generation.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/dock_erb_generation.dir/cmake_clean.cmake
 .PHONY : vrx_gazebo/CMakeFiles/dock_erb_generation.dir/clean
 
 vrx_gazebo/CMakeFiles/dock_erb_generation.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/vrx_gazebo /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/vrx_gazebo /home/xzh/gazebo_build/build/vrx_gazebo/CMakeFiles/dock_erb_generation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/CMakeFiles/dock_erb_generation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrx_gazebo/CMakeFiles/dock_erb_generation.dir/depend
 

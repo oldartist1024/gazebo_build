@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf"
-  "/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf"
-  "/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf"
-  "/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf"
-  "/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf"
-  "/home/xzh/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf"
+  "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016/model.sdf"
+  "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2016_dynamic/model.sdf"
+  "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018/model.sdf"
+  "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2018_dynamic/model.sdf"
+  "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022/model.sdf"
+  "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/dock_2022_dynamic/model.sdf"
   "CMakeFiles/dock_erb_generation"
 )
 

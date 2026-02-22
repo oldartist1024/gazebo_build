@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sandisland_test_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/sandisland_test_autogen.dir/ParseCache.txt"
   "sandisland_test_autogen"
-  "/home/xzh/gazebo_build/devel/lib/vrx_gazebo/sandisland_test"
-  "/home/xzh/gazebo_build/devel/lib/vrx_gazebo/sandisland_test.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/vrx_gazebo/sandisland_test"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/vrx_gazebo/sandisland_test.pdb"
   "CMakeFiles/sandisland_test.dir/sandisland_test_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/sandisland_test.dir/test/sandisland.cc.o"
 )

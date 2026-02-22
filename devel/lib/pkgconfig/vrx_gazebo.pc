@@ -1,8 +1,8 @@
-prefix=/home/xzh/gazebo_build/devel
+prefix=/home/xzh/Project_gazebo_build/gazebo_build/devel
 
 Name: vrx_gazebo
 Description: Description of vrx_gazebo
 Version: 1.3.0
-Cflags: -I/home/xzh/gazebo_build/devel/include -I/home/xzh/gazebo_build/src/vrx_gazebo/include
+Cflags: -I/home/xzh/Project_gazebo_build/gazebo_build/devel/include -I/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/include
 Libs: -L${prefix}/lib -lscoring_plugin
 Requires: wamv_gazebo wave_gazebo xacro gazebo_dev geographic_msgs std_msgs message_runtime

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for usv_msgs_genlisp.
 
@@ -63,10 +63,10 @@ usv_msgs/CMakeFiles/usv_msgs_genlisp.dir/build: usv_msgs_genlisp
 .PHONY : usv_msgs/CMakeFiles/usv_msgs_genlisp.dir/build
 
 usv_msgs/CMakeFiles/usv_msgs_genlisp.dir/clean:
-	cd /home/xzh/gazebo_build/build/usv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/usv_msgs_genlisp.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/usv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/usv_msgs_genlisp.dir/cmake_clean.cmake
 .PHONY : usv_msgs/CMakeFiles/usv_msgs_genlisp.dir/clean
 
 usv_msgs/CMakeFiles/usv_msgs_genlisp.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/usv_msgs /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/usv_msgs /home/xzh/gazebo_build/build/usv_msgs/CMakeFiles/usv_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/usv_msgs /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/usv_msgs /home/xzh/Project_gazebo_build/gazebo_build/build/usv_msgs/CMakeFiles/usv_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : usv_msgs/CMakeFiles/usv_msgs_genlisp.dir/depend
 

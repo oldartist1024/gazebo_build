@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/placard_plugin_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/placard_plugin_autogen.dir/ParseCache.txt"
   "placard_plugin_autogen"
-  "/home/xzh/gazebo_build/devel/lib/libplacard_plugin.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libplacard_plugin.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libplacard_plugin.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libplacard_plugin.so"
   "CMakeFiles/placard_plugin.dir/placard_plugin_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/placard_plugin.dir/src/placard_plugin.cc.o"
 )

@@ -1,4 +1,4 @@
-prefix=/home/xzh/gazebo_build/devel
+prefix=/home/xzh/Project_gazebo_build/gazebo_build/devel
 
 Name: wamv_gazebo
 Description: Description of wamv_gazebo

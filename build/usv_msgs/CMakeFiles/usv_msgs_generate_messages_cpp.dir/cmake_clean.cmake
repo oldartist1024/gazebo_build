@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/include/usv_msgs/RangeBearing.h"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/include/usv_msgs/RangeBearing.h"
   "CMakeFiles/usv_msgs_generate_messages_cpp"
 )
 

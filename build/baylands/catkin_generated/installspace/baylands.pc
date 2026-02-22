@@ -1,8 +1,0 @@
-prefix=/home/xzh/gazebo_build/install
-
-Name: baylands
-Description: Description of baylands
-Version: 0.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

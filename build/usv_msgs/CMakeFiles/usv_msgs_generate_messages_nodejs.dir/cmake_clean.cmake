@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/share/gennodejs/ros/usv_msgs/msg/RangeBearing.js"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/gennodejs/ros/usv_msgs/msg/RangeBearing.js"
   "CMakeFiles/usv_msgs_generate_messages_nodejs"
 )
 

@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/navigation_scoring_plugin_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/navigation_scoring_plugin_autogen.dir/ParseCache.txt"
   "navigation_scoring_plugin_autogen"
-  "/home/xzh/gazebo_build/devel/lib/libnavigation_scoring_plugin.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libnavigation_scoring_plugin.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libnavigation_scoring_plugin.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libnavigation_scoring_plugin.so"
   "CMakeFiles/navigation_scoring_plugin.dir/navigation_scoring_plugin_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/navigation_scoring_plugin.dir/src/navigation_scoring_plugin.cc.o"
 )

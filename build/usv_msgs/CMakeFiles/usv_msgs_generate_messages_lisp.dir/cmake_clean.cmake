@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/share/common-lisp/ros/usv_msgs/msg/RangeBearing.lisp"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/common-lisp/ros/usv_msgs/msg/RangeBearing.lisp"
   "CMakeFiles/usv_msgs_generate_messages_lisp"
 )
 

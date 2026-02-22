@@ -43,35 +43,35 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.
 
 # Include the progress variables for this target.
 include usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/progress.make
 
-usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_: /home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
+usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_: /home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
 
 
-/home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world: /home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds
-/home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world: usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying to devel space: /home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world"
-	cd /home/xzh/gazebo_build/build/usv_gazebo_plugins && /usr/bin/cmake -E copy_if_different /home/xzh/gazebo_build/build/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world /home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
+/home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world: /home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds
+/home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world: usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying to devel space: /home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins && /usr/bin/cmake -E copy_if_different /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world /home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
 
-/home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "creating dir /home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds"
-	cd /home/xzh/gazebo_build/build/usv_gazebo_plugins && /usr/bin/cmake -E make_directory /home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds
+/home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "creating dir /home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins && /usr/bin/cmake -E make_directory /home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds
 
-usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world: /home/xzh/gazebo_build/src/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world.xacro
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "xacro: generating worlds/buoyancy_plugin_demo.world from worlds/buoyancy_plugin_demo.world.xacro"
-	cd /home/xzh/gazebo_build/src/usv_gazebo_plugins && /home/xzh/gazebo_build/build/catkin_generated/env_cached.sh xacro -o /home/xzh/gazebo_build/build/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world worlds/buoyancy_plugin_demo.world.xacro
+usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world: /home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world.xacro
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "xacro: generating worlds/buoyancy_plugin_demo.world from worlds/buoyancy_plugin_demo.world.xacro"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins && /home/xzh/Project_gazebo_build/gazebo_build/build/catkin_generated/env_cached.sh xacro -o /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world worlds/buoyancy_plugin_demo.world.xacro
 
 usv_gazebo_plugins__xacro_auto_generate_to_devel_space_: usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_
-usv_gazebo_plugins__xacro_auto_generate_to_devel_space_: /home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
-usv_gazebo_plugins__xacro_auto_generate_to_devel_space_: /home/xzh/gazebo_build/devel/share/usv_gazebo_plugins/worlds
+usv_gazebo_plugins__xacro_auto_generate_to_devel_space_: /home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
+usv_gazebo_plugins__xacro_auto_generate_to_devel_space_: /home/xzh/Project_gazebo_build/gazebo_build/devel/share/usv_gazebo_plugins/worlds
 usv_gazebo_plugins__xacro_auto_generate_to_devel_space_: usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
 usv_gazebo_plugins__xacro_auto_generate_to_devel_space_: usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/build.make
 
@@ -83,10 +83,10 @@ usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_s
 .PHONY : usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/build
 
 usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/clean:
-	cd /home/xzh/gazebo_build/build/usv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/cmake_clean.cmake
 .PHONY : usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/clean
 
 usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/usv_gazebo_plugins /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/usv_gazebo_plugins /home/xzh/gazebo_build/build/usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate_to_devel_space_.dir/depend
 

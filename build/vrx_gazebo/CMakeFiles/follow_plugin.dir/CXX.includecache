@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/xzh/gazebo_build/build/vrx_gazebo/follow_plugin_autogen/mocs_compilation.cpp
+/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/follow_plugin_autogen/mocs_compilation.cpp
 
-/home/xzh/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/follow_plugin.hh
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/follow_plugin.hh
 vector
 -
 cmath
@@ -22,9 +22,9 @@ ignition/math/Pose3.hh
 sdf/sdf.hh
 -
 vrx_gazebo/waypoint_markers.hh
-/home/xzh/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/waypoint_markers.hh
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/waypoint_markers.hh
 
-/home/xzh/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/waypoint_markers.hh
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/waypoint_markers.hh
 string
 -
 sdf/sdf.hh
@@ -38,7 +38,7 @@ ignition/msgs.hh
 ignition/transport.hh
 -
 
-/home/xzh/gazebo_build/src/vrx_gazebo/src/follow_plugin.cc
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/follow_plugin.cc
 cmath
 -
 string
@@ -52,7 +52,7 @@ gazebo/physics/PhysicsIface.hh
 gazebo/physics/World.hh
 -
 vrx_gazebo/follow_plugin.hh
-/home/xzh/gazebo_build/src/vrx_gazebo/src/vrx_gazebo/follow_plugin.hh
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/vrx_gazebo/follow_plugin.hh
 
 /usr/include/gazebo-11/gazebo/Master.hh
 string

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Include any dependencies generated for this target.
 include vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/depend.make
@@ -59,29 +59,29 @@ include vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/flags.make
 
 vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.o: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/flags.make
 vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.o: vrx_gazebo/ball_shooter_plugin_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.o"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.o -c /home/xzh/gazebo_build/build/vrx_gazebo/ball_shooter_plugin_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.o"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.o -c /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/ball_shooter_plugin_autogen/mocs_compilation.cpp
 
 vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.i"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xzh/gazebo_build/build/vrx_gazebo/ball_shooter_plugin_autogen/mocs_compilation.cpp > CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.i
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/ball_shooter_plugin_autogen/mocs_compilation.cpp > CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.i
 
 vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.s"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xzh/gazebo_build/build/vrx_gazebo/ball_shooter_plugin_autogen/mocs_compilation.cpp -o CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.s
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/ball_shooter_plugin_autogen/mocs_compilation.cpp -o CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.s
 
 vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/flags.make
-vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o: /home/xzh/gazebo_build/src/vrx_gazebo/src/ball_shooter_plugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o -c /home/xzh/gazebo_build/src/vrx_gazebo/src/ball_shooter_plugin.cc
+vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/ball_shooter_plugin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o -c /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/ball_shooter_plugin.cc
 
 vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.i"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xzh/gazebo_build/src/vrx_gazebo/src/ball_shooter_plugin.cc > CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.i
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/ball_shooter_plugin.cc > CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.i
 
 vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.s"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xzh/gazebo_build/src/vrx_gazebo/src/ball_shooter_plugin.cc -o CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.s
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/ball_shooter_plugin.cc -o CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.s
 
 # Object files for target ball_shooter_plugin
 ball_shooter_plugin_OBJECTS = \
@@ -91,23 +91,23 @@ ball_shooter_plugin_OBJECTS = \
 # External object files for target ball_shooter_plugin
 ball_shooter_plugin_EXTERNAL_OBJECTS =
 
-/home/xzh/gazebo_build/devel/lib/libball_shooter_plugin.so: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.o
-/home/xzh/gazebo_build/devel/lib/libball_shooter_plugin.so: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o
-/home/xzh/gazebo_build/devel/lib/libball_shooter_plugin.so: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/build.make
-/home/xzh/gazebo_build/devel/lib/libball_shooter_plugin.so: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/xzh/gazebo_build/devel/lib/libball_shooter_plugin.so"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ball_shooter_plugin.dir/link.txt --verbose=$(VERBOSE)
+/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libball_shooter_plugin.so: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.o
+/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libball_shooter_plugin.so: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o
+/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libball_shooter_plugin.so: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/build.make
+/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libball_shooter_plugin.so: vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libball_shooter_plugin.so"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ball_shooter_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/build: /home/xzh/gazebo_build/devel/lib/libball_shooter_plugin.so
+vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/build: /home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libball_shooter_plugin.so
 
 .PHONY : vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/build
 
 vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/clean:
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/ball_shooter_plugin.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/ball_shooter_plugin.dir/cmake_clean.cmake
 .PHONY : vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/clean
 
 vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/vrx_gazebo /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/vrx_gazebo /home/xzh/gazebo_build/build/vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrx_gazebo/CMakeFiles/ball_shooter_plugin.dir/depend
 

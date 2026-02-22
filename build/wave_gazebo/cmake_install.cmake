@@ -1,8 +1,8 @@
-# Install script for directory: /home/xzh/gazebo_build/src/wave_gazebo
+# Install script for directory: /home/xzh/Project_gazebo_build/gazebo_build/src/wave_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xzh/gazebo_build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xzh/Project_gazebo_build/gazebo_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,29 +38,29 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/gazebo_build/build/wave_gazebo/catkin_generated/installspace/wave_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo/catkin_generated/installspace/wave_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wave_gazebo/cmake" TYPE FILE FILES
-    "/home/xzh/gazebo_build/build/wave_gazebo/catkin_generated/installspace/wave_gazeboConfig.cmake"
-    "/home/xzh/gazebo_build/build/wave_gazebo/catkin_generated/installspace/wave_gazeboConfig-version.cmake"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo/catkin_generated/installspace/wave_gazeboConfig.cmake"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo/catkin_generated/installspace/wave_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wave_gazebo" TYPE FILE FILES "/home/xzh/gazebo_build/src/wave_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wave_gazebo" TYPE FILE FILES "/home/xzh/Project_gazebo_build/gazebo_build/src/wave_gazebo/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wave_gazebo/world_models" TYPE DIRECTORY FILES "/home/xzh/gazebo_build/src/wave_gazebo/world_models/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wave_gazebo/world_models" TYPE DIRECTORY FILES "/home/xzh/Project_gazebo_build/gazebo_build/src/wave_gazebo/world_models/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wave_gazebo/worlds" TYPE FILE FILES
-    "/home/xzh/gazebo_build/build/wave_gazebo/worlds/ocean.world"
-    "/home/xzh/gazebo_build/build/wave_gazebo/worlds/ocean_buoys.world"
-    "/home/xzh/gazebo_build/build/wave_gazebo/worlds/ocean_wamv.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo/worlds/ocean.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo/worlds/ocean_buoys.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo/worlds/ocean_wamv.world"
     )
 endif()
 

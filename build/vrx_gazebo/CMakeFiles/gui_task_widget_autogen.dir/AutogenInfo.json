@@ -1,21 +1,21 @@
 {
-	"BUILD_DIR" : "/home/xzh/gazebo_build/build/vrx_gazebo/gui_task_widget_autogen",
-	"CMAKE_BINARY_DIR" : "/home/xzh/gazebo_build/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/xzh/gazebo_build/build/vrx_gazebo",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/xzh/gazebo_build/src/vrx_gazebo",
+	"BUILD_DIR" : "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/gui_task_widget_autogen",
+	"CMAKE_BINARY_DIR" : "/home/xzh/Project_gazebo_build/gazebo_build/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/xzh/gazebo_build/src",
+	"CMAKE_SOURCE_DIR" : "/home/xzh/Project_gazebo_build/gazebo_build/src",
 	"HEADERS" : 
 	[
 		[
-			"/home/xzh/gazebo_build/src/vrx_gazebo/src/gui_task_widget.hh",
+			"/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/gui_task_widget.hh",
 			"MU",
 			"UVLADIE3JM/moc_gui_task_widget.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/xzh/gazebo_build/build/vrx_gazebo/gui_task_widget_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/xzh/gazebo_build/build/vrx_gazebo/gui_task_widget_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/gui_task_widget_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/gui_task_widget_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"BOOST_ALL_NO_LIB",
@@ -48,10 +48,10 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/xzh/gazebo_build/devel/include",
-		"/home/xzh/gazebo_build/src/vrx_gazebo/include",
-		"/home/xzh/gazebo_build/src/usv_gazebo_plugins/include",
-		"/home/xzh/gazebo_build/src/wave_gazebo_plugins/include",
+		"/home/xzh/Project_gazebo_build/gazebo_build/devel/include",
+		"/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/include",
+		"/home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins/include",
+		"/home/xzh/Project_gazebo_build/gazebo_build/src/wave_gazebo_plugins/include",
 		"/opt/ros/noetic/include",
 		"/opt/ros/noetic/include/xmlrpcpp",
 		"/usr/include/gazebo-11",
@@ -60,7 +60,7 @@
 		"/usr/include/OGRE",
 		"/usr/include/OGRE/Terrain",
 		"/usr/include/OGRE/Paging",
-		"/home/xzh/gazebo_build/build/vrx_gazebo/msgs",
+		"/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs",
 		"/usr/include/simbody",
 		"/usr/include/ignition/math6",
 		"/usr/include/ignition/transport8",
@@ -95,19 +95,22 @@
 		"-c",
 		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/xzh/gazebo_build/build/vrx_gazebo/gui_task_widget_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/gui_task_widget_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "/home/xzh/gazebo_build/build/vrx_gazebo/CMakeFiles/gui_task_widget_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/CMakeFiles/gui_task_widget_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "/home/xzh/gazebo_build/build/vrx_gazebo/CMakeFiles/gui_task_widget_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/CMakeFiles/gui_task_widget_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/xzh/gazebo_build/src/vrx_gazebo/src/gui_task_widget.cc", "MU" ]
+		[
+			"/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/gui_task_widget.cc",
+			"MU"
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

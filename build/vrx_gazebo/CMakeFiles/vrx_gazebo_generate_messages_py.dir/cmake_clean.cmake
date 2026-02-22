@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/msg/_Contact.py"
-  "/home/xzh/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/msg/_Task.py"
-  "/home/xzh/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/msg/__init__.py"
-  "/home/xzh/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/srv/_BallShooter.py"
-  "/home/xzh/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/srv/_ColorSequence.py"
-  "/home/xzh/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/srv/__init__.py"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/msg/_Contact.py"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/msg/_Task.py"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/msg/__init__.py"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/srv/_BallShooter.py"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/srv/_ColorSequence.py"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/python3/dist-packages/vrx_gazebo/srv/__init__.py"
   "CMakeFiles/vrx_gazebo_generate_messages_py"
 )
 

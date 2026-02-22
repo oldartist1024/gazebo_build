@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for _run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
 include usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/progress.make
 
 usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test:
-	cd /home/xzh/gazebo_build/build/usv_gazebo_plugins && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/xzh/gazebo_build/build/test_results/usv_gazebo_plugins/gtest-buoyancy_plugin_test.xml "/home/xzh/gazebo_build/devel/lib/usv_gazebo_plugins/buoyancy_plugin_test --gtest_output=xml:/home/xzh/gazebo_build/build/test_results/usv_gazebo_plugins/gtest-buoyancy_plugin_test.xml"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/xzh/Project_gazebo_build/gazebo_build/build/test_results/usv_gazebo_plugins/gtest-buoyancy_plugin_test.xml "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/usv_gazebo_plugins/buoyancy_plugin_test --gtest_output=xml:/home/xzh/Project_gazebo_build/gazebo_build/build/test_results/usv_gazebo_plugins/gtest-buoyancy_plugin_test.xml"
 
 _run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test: usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test
 _run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test: usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/build.make
@@ -67,10 +67,10 @@ usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugi
 .PHONY : usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/build
 
 usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/clean:
-	cd /home/xzh/gazebo_build/build/usv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/cmake_clean.cmake
 .PHONY : usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/clean
 
 usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/usv_gazebo_plugins /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/usv_gazebo_plugins /home/xzh/gazebo_build/build/usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins_gtest_buoyancy_plugin_test.dir/depend
 

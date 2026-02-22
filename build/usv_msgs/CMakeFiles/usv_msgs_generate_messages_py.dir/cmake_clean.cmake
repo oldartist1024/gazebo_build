@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/lib/python3/dist-packages/usv_msgs/msg/_RangeBearing.py"
-  "/home/xzh/gazebo_build/devel/lib/python3/dist-packages/usv_msgs/msg/__init__.py"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/python3/dist-packages/usv_msgs/msg/_RangeBearing.py"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/python3/dist-packages/usv_msgs/msg/__init__.py"
   "CMakeFiles/usv_msgs_generate_messages_py"
 )
 

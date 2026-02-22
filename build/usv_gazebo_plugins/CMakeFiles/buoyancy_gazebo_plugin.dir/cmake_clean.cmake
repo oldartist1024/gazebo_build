@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/lib/libbuoyancy_gazebo_plugin.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libbuoyancy_gazebo_plugin.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libbuoyancy_gazebo_plugin.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libbuoyancy_gazebo_plugin.so"
   "CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o"
   "CMakeFiles/buoyancy_gazebo_plugin.dir/src/polyhedron_volume.cc.o"
   "CMakeFiles/buoyancy_gazebo_plugin.dir/src/shape_volume.cc.o"

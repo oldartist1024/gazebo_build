@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/include/vrx_gazebo/BallShooter.h"
-  "/home/xzh/gazebo_build/devel/include/vrx_gazebo/ColorSequence.h"
-  "/home/xzh/gazebo_build/devel/include/vrx_gazebo/Contact.h"
-  "/home/xzh/gazebo_build/devel/include/vrx_gazebo/Task.h"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/include/vrx_gazebo/BallShooter.h"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/include/vrx_gazebo/ColorSequence.h"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/include/vrx_gazebo/Contact.h"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/include/vrx_gazebo/Task.h"
   "CMakeFiles/vrx_gazebo_generate_messages_cpp"
 )
 

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "world_build"
-PROJECT_SPACE_DIR = "/home/xzh/gazebo_build/devel"
+PROJECT_SPACE_DIR = "/home/xzh/Project_gazebo_build/gazebo_build/devel"
 PROJECT_VERSION = "0.0.0"

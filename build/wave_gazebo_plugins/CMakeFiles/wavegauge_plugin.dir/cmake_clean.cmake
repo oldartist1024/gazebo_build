@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/lib/libwavegauge_plugin.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libwavegauge_plugin.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libwavegauge_plugin.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libwavegauge_plugin.so"
   "CMakeFiles/wavegauge_plugin.dir/src/wavegauge_plugin.cc.o"
 )
 

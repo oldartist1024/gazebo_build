@@ -1,8 +1,8 @@
-# Install script for directory: /home/xzh/gazebo_build/src/vrx_2019
+# Install script for directory: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_2019
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xzh/gazebo_build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xzh/Project_gazebo_build/gazebo_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,44 +38,44 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/gazebo_build/build/vrx_2019/catkin_generated/installspace/vrx_2019.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/catkin_generated/installspace/vrx_2019.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019/cmake" TYPE FILE FILES
-    "/home/xzh/gazebo_build/build/vrx_2019/catkin_generated/installspace/vrx_2019Config.cmake"
-    "/home/xzh/gazebo_build/build/vrx_2019/catkin_generated/installspace/vrx_2019Config-version.cmake"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/catkin_generated/installspace/vrx_2019Config.cmake"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/catkin_generated/installspace/vrx_2019Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019" TYPE FILE FILES "/home/xzh/gazebo_build/src/vrx_2019/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019" TYPE FILE FILES "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_2019/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019/worlds" TYPE FILE FILES
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/dock.world"
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/example_course.world"
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/navigation_task.world"
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/ocean.world"
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/perception_task.world"
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/sandisland.world"
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/scan_and_dock.world"
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/stationkeeping_task.world"
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/wayfinding_task.world"
-    "/home/xzh/gazebo_build/build/vrx_2019/worlds/wind_test.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/dock.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/example_course.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/navigation_task.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/ocean.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/perception_task.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/sandisland.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/scan_and_dock.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/stationkeeping_task.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/wayfinding_task.world"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_2019/worlds/wind_test.world"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019/config" TYPE DIRECTORY FILES "/home/xzh/gazebo_build/src/vrx_2019/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019/config" TYPE DIRECTORY FILES "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_2019/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019/worlds" TYPE DIRECTORY FILES "/home/xzh/gazebo_build/src/vrx_2019/worlds/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019/worlds" TYPE DIRECTORY FILES "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_2019/worlds/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019/launch" TYPE DIRECTORY FILES "/home/xzh/gazebo_build/src/vrx_2019/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrx_2019/launch" TYPE DIRECTORY FILES "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_2019/launch/")
 endif()
 

@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ball_shooter_plugin_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/ball_shooter_plugin_autogen.dir/ParseCache.txt"
   "ball_shooter_plugin_autogen"
-  "/home/xzh/gazebo_build/devel/lib/libball_shooter_plugin.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libball_shooter_plugin.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libball_shooter_plugin.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libball_shooter_plugin.so"
   "CMakeFiles/ball_shooter_plugin.dir/ball_shooter_plugin_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o"
 )

@@ -1,8 +1,8 @@
-# Install script for directory: /home/xzh/gazebo_build/src/yosemite_valley
+# Install script for directory: /home/xzh/Project_gazebo_build/gazebo_build/src/yosemite_valley
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xzh/gazebo_build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xzh/Project_gazebo_build/gazebo_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/gazebo_build/build/yosemite_valley/catkin_generated/installspace/yosemite_valley.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/Project_gazebo_build/gazebo_build/build/yosemite_valley/catkin_generated/installspace/yosemite_valley.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yosemite_valley/cmake" TYPE FILE FILES
-    "/home/xzh/gazebo_build/build/yosemite_valley/catkin_generated/installspace/yosemite_valleyConfig.cmake"
-    "/home/xzh/gazebo_build/build/yosemite_valley/catkin_generated/installspace/yosemite_valleyConfig-version.cmake"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/yosemite_valley/catkin_generated/installspace/yosemite_valleyConfig.cmake"
+    "/home/xzh/Project_gazebo_build/gazebo_build/build/yosemite_valley/catkin_generated/installspace/yosemite_valleyConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yosemite_valley" TYPE FILE FILES "/home/xzh/gazebo_build/src/yosemite_valley/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yosemite_valley" TYPE FILE FILES "/home/xzh/Project_gazebo_build/gazebo_build/src/yosemite_valley/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yosemite_valley" TYPE DIRECTORY FILES
-    "/home/xzh/gazebo_build/src/yosemite_valley/launch"
-    "/home/xzh/gazebo_build/src/yosemite_valley/media"
-    "/home/xzh/gazebo_build/src/yosemite_valley/worlds"
+    "/home/xzh/Project_gazebo_build/gazebo_build/src/yosemite_valley/launch"
+    "/home/xzh/Project_gazebo_build/gazebo_build/src/yosemite_valley/media"
+    "/home/xzh/Project_gazebo_build/gazebo_build/src/yosemite_valley/worlds"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/xzh/gazebo_build/build/yosemite_valley/catkin_generated/installspace/99_yosemite_valley_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/xzh/Project_gazebo_build/gazebo_build/build/yosemite_valley/catkin_generated/installspace/99_yosemite_valley_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yosemite_valley/catkin_env_hook" TYPE FILE FILES "/home/xzh/gazebo_build/build/yosemite_valley/catkin_generated/installspace/99_yosemite_valley_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yosemite_valley/catkin_env_hook" TYPE FILE FILES "/home/xzh/Project_gazebo_build/gazebo_build/build/yosemite_valley/catkin_generated/installspace/99_yosemite_valley_setup.sh")
 endif()
 

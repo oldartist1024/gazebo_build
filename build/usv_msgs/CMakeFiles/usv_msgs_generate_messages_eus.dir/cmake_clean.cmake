@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/share/roseus/ros/usv_msgs/manifest.l"
-  "/home/xzh/gazebo_build/devel/share/roseus/ros/usv_msgs/msg/RangeBearing.l"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/roseus/ros/usv_msgs/manifest.l"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/roseus/ros/usv_msgs/msg/RangeBearing.l"
   "CMakeFiles/usv_msgs_generate_messages_eus"
 )
 

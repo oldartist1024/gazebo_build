@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for wamv_gazebo__xacro_auto_generate.
 
@@ -56,26 +56,26 @@ include wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/progress.mak
 wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate: wamv_gazebo/urdf/wamv_gazebo.urdf
 
 
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/wamv_gazebo.urdf.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/components/wamv_gps.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/dynamics/wamv_gazebo_dynamics_plugin.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/components/wamv_3d_lidar.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/components/wamv_camera.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/components/lidar.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/components/wamv_planar_lidar.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/thruster_layouts/wamv_aft_thrusters.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_description/urdf/wamv_base.urdf.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/components/ball_shooter.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/components/wamv_pinger.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/macros.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_description/urdf/battery.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_description/urdf/thrusters/engine.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/thruster_layouts/wamv_gazebo_thruster_config.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/wamv_gazebo.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/components/wamv_imu.xacro
-wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/gazebo_build/src/wamv_gazebo/urdf/components/wamv_p3d.xacro
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "xacro: generating urdf/wamv_gazebo.urdf from urdf/wamv_gazebo.urdf.xacro"
-	cd /home/xzh/gazebo_build/src/wamv_gazebo && /home/xzh/gazebo_build/build/catkin_generated/env_cached.sh xacro -o /home/xzh/gazebo_build/build/wamv_gazebo/urdf/wamv_gazebo.urdf urdf/wamv_gazebo.urdf.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/wamv_gazebo.urdf.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/thruster_layouts/wamv_gazebo_thruster_config.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/components/ball_shooter.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/components/wamv_p3d.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_description/urdf/battery.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/macros.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/components/wamv_planar_lidar.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_description/urdf/thrusters/engine.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/components/wamv_gps.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/components/wamv_3d_lidar.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/components/lidar.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/components/wamv_pinger.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/thruster_layouts/wamv_aft_thrusters.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/components/wamv_imu.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/dynamics/wamv_gazebo_dynamics_plugin.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/wamv_gazebo.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_description/urdf/wamv_base.urdf.xacro
+wamv_gazebo/urdf/wamv_gazebo.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo/urdf/components/wamv_camera.xacro
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "xacro: generating urdf/wamv_gazebo.urdf from urdf/wamv_gazebo.urdf.xacro"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo && /home/xzh/Project_gazebo_build/gazebo_build/build/catkin_generated/env_cached.sh xacro -o /home/xzh/Project_gazebo_build/gazebo_build/build/wamv_gazebo/urdf/wamv_gazebo.urdf urdf/wamv_gazebo.urdf.xacro
 
 wamv_gazebo__xacro_auto_generate: wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate
 wamv_gazebo__xacro_auto_generate: wamv_gazebo/urdf/wamv_gazebo.urdf
@@ -89,10 +89,10 @@ wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/build: wamv_gazebo__
 .PHONY : wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/build
 
 wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/clean:
-	cd /home/xzh/gazebo_build/build/wamv_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/wamv_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/cmake_clean.cmake
 .PHONY : wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/clean
 
 wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/wamv_gazebo /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/wamv_gazebo /home/xzh/gazebo_build/build/wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/wamv_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build/wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wamv_gazebo/CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/depend
 

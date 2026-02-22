@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/wildlife_scoring_plugin_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/wildlife_scoring_plugin_autogen.dir/ParseCache.txt"
   "wildlife_scoring_plugin_autogen"
-  "/home/xzh/gazebo_build/devel/lib/libwildlife_scoring_plugin.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libwildlife_scoring_plugin.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libwildlife_scoring_plugin.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libwildlife_scoring_plugin.so"
   "CMakeFiles/wildlife_scoring_plugin.dir/src/wildlife_scoring_plugin.cc.o"
   "CMakeFiles/wildlife_scoring_plugin.dir/wildlife_scoring_plugin_autogen/mocs_compilation.cpp.o"
 )

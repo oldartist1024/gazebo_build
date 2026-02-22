@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for clean_test_results_vrx_gazebo.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
 include vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/progress.make
 
 vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo:
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/xzh/gazebo_build/build/test_results/vrx_gazebo
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/xzh/Project_gazebo_build/gazebo_build/build/test_results/vrx_gazebo
 
 clean_test_results_vrx_gazebo: vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo
 clean_test_results_vrx_gazebo: vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/build.make
@@ -67,10 +67,10 @@ vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/build: clean_test_result
 .PHONY : vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/build
 
 vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/clean:
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_vrx_gazebo.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_vrx_gazebo.dir/cmake_clean.cmake
 .PHONY : vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/clean
 
 vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/vrx_gazebo /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/vrx_gazebo /home/xzh/gazebo_build/build/vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrx_gazebo/CMakeFiles/clean_test_results_vrx_gazebo.dir/depend
 

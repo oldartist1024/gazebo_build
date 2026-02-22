@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xzh/gazebo_build/src/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_wind_plugin.hh
+/home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_wind_plugin.hh
 ros/ros.h
 -
 memory
@@ -28,7 +28,7 @@ gazebo/physics/physics.hh
 sdf/sdf.hh
 -
 
-/home/xzh/gazebo_build/src/usv_gazebo_plugins/src/usv_gazebo_wind_plugin.cc
+/home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins/src/usv_gazebo_wind_plugin.cc
 std_msgs/Float64.h
 -
 functional
@@ -36,7 +36,7 @@ functional
 gazebo/common/Console.hh
 -
 usv_gazebo_plugins/usv_gazebo_wind_plugin.hh
-/home/xzh/gazebo_build/src/usv_gazebo_plugins/src/usv_gazebo_plugins/usv_gazebo_wind_plugin.hh
+/home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins/src/usv_gazebo_plugins/usv_gazebo_wind_plugin.hh
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

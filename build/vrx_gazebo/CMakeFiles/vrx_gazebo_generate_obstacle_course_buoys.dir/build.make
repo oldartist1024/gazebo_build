@@ -43,25 +43,25 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for vrx_gazebo_generate_obstacle_course_buoys.
 
 # Include the progress variables for this target.
 include vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/progress.make
 
-vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys: /home/xzh/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf
+vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf
 
 
-/home/xzh/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf: /home/xzh/gazebo_build/src/vrx_gazebo/scripts/generate_avoid_obstacles_buoys.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/xzh/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && /home/xzh/gazebo_build/src/vrx_gazebo/scripts/generate_avoid_obstacles_buoys.py --seed 1337 --a3 6 --a5 7 --a7 7 > /home/xzh/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf
+/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/scripts/generate_avoid_obstacles_buoys.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/scripts/generate_avoid_obstacles_buoys.py --seed 1337 --a3 6 --a5 7 --a7 7 > /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf
 
 vrx_gazebo_generate_obstacle_course_buoys: vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys
-vrx_gazebo_generate_obstacle_course_buoys: /home/xzh/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf
+vrx_gazebo_generate_obstacle_course_buoys: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf
 vrx_gazebo_generate_obstacle_course_buoys: vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/build.make
 
 .PHONY : vrx_gazebo_generate_obstacle_course_buoys
@@ -72,10 +72,10 @@ vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/build: vrx_g
 .PHONY : vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/build
 
 vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/clean:
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/cmake_clean.cmake
 .PHONY : vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/clean
 
 vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/vrx_gazebo /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/vrx_gazebo /home/xzh/gazebo_build/build/vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrx_gazebo/CMakeFiles/vrx_gazebo_generate_obstacle_course_buoys.dir/depend
 

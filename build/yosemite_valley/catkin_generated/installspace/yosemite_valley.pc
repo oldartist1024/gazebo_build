@@ -1,4 +1,4 @@
-prefix=/home/xzh/gazebo_build/install
+prefix=/home/xzh/Project_gazebo_build/gazebo_build/install
 
 Name: yosemite_valley
 Description: Description of yosemite_valley

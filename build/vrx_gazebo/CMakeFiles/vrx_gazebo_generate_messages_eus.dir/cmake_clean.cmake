@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/share/roseus/ros/vrx_gazebo/manifest.l"
-  "/home/xzh/gazebo_build/devel/share/roseus/ros/vrx_gazebo/msg/Contact.l"
-  "/home/xzh/gazebo_build/devel/share/roseus/ros/vrx_gazebo/msg/Task.l"
-  "/home/xzh/gazebo_build/devel/share/roseus/ros/vrx_gazebo/srv/BallShooter.l"
-  "/home/xzh/gazebo_build/devel/share/roseus/ros/vrx_gazebo/srv/ColorSequence.l"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/roseus/ros/vrx_gazebo/manifest.l"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/roseus/ros/vrx_gazebo/msg/Contact.l"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/roseus/ros/vrx_gazebo/msg/Task.l"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/roseus/ros/vrx_gazebo/srv/BallShooter.l"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/roseus/ros/vrx_gazebo/srv/ColorSequence.l"
   "CMakeFiles/vrx_gazebo_generate_messages_eus"
 )
 

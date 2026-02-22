@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for dock_placard_msgs_autogen.
 
@@ -55,13 +55,13 @@ include vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/progress.make
 
 vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen: vrx_gazebo/msgs/dock_placard.pb.cc
 vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen: vrx_gazebo/msgs/dock_placard.pb.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target dock_placard_msgs"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo/msgs && /usr/bin/cmake -E cmake_autogen /home/xzh/gazebo_build/build/vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target dock_placard_msgs"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs && /usr/bin/cmake -E cmake_autogen /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/AutogenInfo.json ""
 
-vrx_gazebo/msgs/dock_placard.pb.h: /home/xzh/gazebo_build/src/vrx_gazebo/msgs/dock_placard.proto
+vrx_gazebo/msgs/dock_placard.pb.h: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/msgs/dock_placard.proto
 vrx_gazebo/msgs/dock_placard.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on dock_placard.proto"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo/msgs && /usr/bin/protoc --cpp_out /home/xzh/gazebo_build/build/vrx_gazebo/msgs -I /home/xzh/gazebo_build/src/vrx_gazebo/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/xzh/gazebo_build/src/vrx_gazebo/msgs/dock_placard.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on dock_placard.proto"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs && /usr/bin/protoc --cpp_out /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs -I /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/msgs/dock_placard.proto
 
 vrx_gazebo/msgs/dock_placard.pb.cc: vrx_gazebo/msgs/dock_placard.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate vrx_gazebo/msgs/dock_placard.pb.cc
@@ -79,10 +79,10 @@ vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/build: dock_placard_msg
 .PHONY : vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/build
 
 vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/clean:
-	cd /home/xzh/gazebo_build/build/vrx_gazebo/msgs && $(CMAKE_COMMAND) -P CMakeFiles/dock_placard_msgs_autogen.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs && $(CMAKE_COMMAND) -P CMakeFiles/dock_placard_msgs_autogen.dir/cmake_clean.cmake
 .PHONY : vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/clean
 
 vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/vrx_gazebo/msgs /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/vrx_gazebo/msgs /home/xzh/gazebo_build/build/vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/msgs /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrx_gazebo/msgs/CMakeFiles/dock_placard_msgs_autogen.dir/depend
 

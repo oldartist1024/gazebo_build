@@ -1,8 +1,8 @@
-# Install script for directory: /home/xzh/gazebo_build/src/vrx_gazebo/msgs
+# Install script for directory: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xzh/gazebo_build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xzh/Project_gazebo_build/gazebo_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdock_placard_msgs.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xzh/gazebo_build/devel/lib/libdock_placard_msgs.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libdock_placard_msgs.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdock_placard_msgs.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdock_placard_msgs.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdock_placard_msgs.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/xzh/gazebo_build/build/vrx_gazebo/msgs:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdock_placard_msgs.so")
@@ -67,12 +67,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblight_buoy_colors_msgs.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xzh/gazebo_build/devel/lib/liblight_buoy_colors_msgs.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/liblight_buoy_colors_msgs.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblight_buoy_colors_msgs.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblight_buoy_colors_msgs.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblight_buoy_colors_msgs.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/xzh/gazebo_build/build/vrx_gazebo/msgs:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblight_buoy_colors_msgs.so")

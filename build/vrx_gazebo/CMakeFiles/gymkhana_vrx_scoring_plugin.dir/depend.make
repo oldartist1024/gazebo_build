@@ -3,11 +3,11 @@
 
 vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/gymkhana_vrx_scoring_plugin_autogen/mocs_compilation.cpp.o: vrx_gazebo/gymkhana_vrx_scoring_plugin_autogen/mocs_compilation.cpp
 
-vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/gazebo_build/devel/include/vrx_gazebo/Contact.h
-vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/gazebo_build/devel/include/vrx_gazebo/Task.h
-vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/gymkhana_scoring_plugin.hh
-vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/scoring_plugin.hh
-vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/gazebo_build/src/vrx_gazebo/src/gymkhana_scoring_plugin.cc
+vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/devel/include/vrx_gazebo/Contact.h
+vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/devel/include/vrx_gazebo/Task.h
+vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/gymkhana_scoring_plugin.hh
+vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/scoring_plugin.hh
+vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/gymkhana_scoring_plugin.cc
 vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /opt/ros/noetic/include/geometry_msgs/Vector3.h
 vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /opt/ros/noetic/include/ros/advertise_options.h
 vrx_gazebo/CMakeFiles/gymkhana_vrx_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o: /opt/ros/noetic/include/ros/advertise_service_options.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for usv_gazebo_plugins__xacro_auto_generate.
 
@@ -56,9 +56,9 @@ include usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.di
 usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate: usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
 
 
-usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world: /home/xzh/gazebo_build/src/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world.xacro
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "xacro: generating worlds/buoyancy_plugin_demo.world from worlds/buoyancy_plugin_demo.world.xacro"
-	cd /home/xzh/gazebo_build/src/usv_gazebo_plugins && /home/xzh/gazebo_build/build/catkin_generated/env_cached.sh xacro -o /home/xzh/gazebo_build/build/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world worlds/buoyancy_plugin_demo.world.xacro
+usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world: /home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world.xacro
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "xacro: generating worlds/buoyancy_plugin_demo.world from worlds/buoyancy_plugin_demo.world.xacro"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins && /home/xzh/Project_gazebo_build/gazebo_build/build/catkin_generated/env_cached.sh xacro -o /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world worlds/buoyancy_plugin_demo.world.xacro
 
 usv_gazebo_plugins__xacro_auto_generate: usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate
 usv_gazebo_plugins__xacro_auto_generate: usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
@@ -72,10 +72,10 @@ usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/build:
 .PHONY : usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/build
 
 usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/clean:
-	cd /home/xzh/gazebo_build/build/usv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/cmake_clean.cmake
 .PHONY : usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/clean
 
 usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/usv_gazebo_plugins /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/usv_gazebo_plugins /home/xzh/gazebo_build/build/usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir/depend
 

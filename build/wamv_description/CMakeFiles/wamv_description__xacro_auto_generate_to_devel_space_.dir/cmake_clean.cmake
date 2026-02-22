@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/share/wamv_description/urdf"
-  "/home/xzh/gazebo_build/devel/share/wamv_description/urdf/wamv_base.urdf"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/wamv_description/urdf"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/share/wamv_description/urdf/wamv_base.urdf"
   "CMakeFiles/wamv_description__xacro_auto_generate_to_devel_space_"
   "urdf/wamv_base.urdf"
 )

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for navigation_scoring_plugin_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
 include vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/progress.make
 
 vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target navigation_scoring_plugin"
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && /usr/bin/cmake -E cmake_autogen /home/xzh/gazebo_build/build/vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target navigation_scoring_plugin"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && /usr/bin/cmake -E cmake_autogen /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/AutogenInfo.json ""
 
 navigation_scoring_plugin_autogen: vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen
 navigation_scoring_plugin_autogen: vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/build.make
@@ -68,10 +68,10 @@ vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/build: navigation_sc
 .PHONY : vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/build
 
 vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/clean:
-	cd /home/xzh/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/navigation_scoring_plugin_autogen.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/navigation_scoring_plugin_autogen.dir/cmake_clean.cmake
 .PHONY : vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/clean
 
 vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/vrx_gazebo /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/vrx_gazebo /home/xzh/gazebo_build/build/vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrx_gazebo/CMakeFiles/navigation_scoring_plugin_autogen.dir/depend
 

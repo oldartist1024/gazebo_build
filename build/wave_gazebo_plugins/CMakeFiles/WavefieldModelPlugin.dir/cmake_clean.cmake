@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/lib/libWavefieldModelPlugin.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libWavefieldModelPlugin.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libWavefieldModelPlugin.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libWavefieldModelPlugin.so"
   "CMakeFiles/WavefieldModelPlugin.dir/src/WavefieldModelPlugin.cc.o"
 )
 

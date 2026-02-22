@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/src/wave_gazebo/world_models/ocean_waves/model.xacro"
+  "/home/xzh/Project_gazebo_build/gazebo_build/src/wave_gazebo/world_models/ocean_waves/model.xacro"
   "CMakeFiles/model_erb_generation"
 )
 

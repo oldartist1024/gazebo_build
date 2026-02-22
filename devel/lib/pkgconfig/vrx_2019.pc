@@ -1,4 +1,4 @@
-prefix=/home/xzh/gazebo_build/devel
+prefix=/home/xzh/Project_gazebo_build/gazebo_build/devel
 
 Name: vrx_2019
 Description: Description of vrx_2019

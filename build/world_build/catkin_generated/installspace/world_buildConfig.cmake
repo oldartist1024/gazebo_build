@@ -67,14 +67,14 @@ set(world_build_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(world_build_SOURCE_PREFIX /home/xzh/gazebo_build/src/world_build)
-  set(world_build_DEVEL_PREFIX /home/xzh/gazebo_build/devel)
+  set(world_build_SOURCE_PREFIX /home/xzh/Project_gazebo_build/gazebo_build/src/world_build)
+  set(world_build_DEVEL_PREFIX /home/xzh/Project_gazebo_build/gazebo_build/devel)
   set(world_build_INSTALL_PREFIX "")
   set(world_build_PREFIX ${world_build_DEVEL_PREFIX})
 else()
   set(world_build_SOURCE_PREFIX "")
   set(world_build_DEVEL_PREFIX "")
-  set(world_build_INSTALL_PREFIX /home/xzh/gazebo_build/install)
+  set(world_build_INSTALL_PREFIX /home/xzh/Project_gazebo_build/gazebo_build/install)
   set(world_build_PREFIX ${world_build_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xzh/gazebo_build/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/xzh/Project_gazebo_build/gazebo_build/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

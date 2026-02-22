@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/lib/usv_gazebo_plugins/buoyancy_plugin_test"
-  "/home/xzh/gazebo_build/devel/lib/usv_gazebo_plugins/buoyancy_plugin_test.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/usv_gazebo_plugins/buoyancy_plugin_test"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/usv_gazebo_plugins/buoyancy_plugin_test.pdb"
   "CMakeFiles/buoyancy_plugin_test.dir/test/buoyancy_test.cc.o"
 )
 

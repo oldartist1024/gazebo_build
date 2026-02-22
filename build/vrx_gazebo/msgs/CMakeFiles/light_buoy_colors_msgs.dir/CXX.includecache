@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/xzh/gazebo_build/build/vrx_gazebo/msgs/light_buoy_colors.pb.cc
+/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs/light_buoy_colors.pb.cc
 light_buoy_colors.pb.h
-/home/xzh/gazebo_build/build/vrx_gazebo/msgs/light_buoy_colors.pb.h
+/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs/light_buoy_colors.pb.h
 algorithm
 -
 google/protobuf/stubs/common.h
@@ -28,9 +28,9 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 third_party/protobuf/version.h
-/home/xzh/gazebo_build/build/vrx_gazebo/msgs/third_party/protobuf/version.h
+/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs/third_party/protobuf/version.h
 
-/home/xzh/gazebo_build/build/vrx_gazebo/msgs/light_buoy_colors.pb.h
+/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs/light_buoy_colors.pb.h
 string
 -
 google/protobuf/stubs/common.h
@@ -58,5 +58,5 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 
-/home/xzh/gazebo_build/build/vrx_gazebo/msgs/light_buoy_colors_msgs_autogen/mocs_compilation.cpp
+/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo/msgs/light_buoy_colors_msgs_autogen/mocs_compilation.cpp
 

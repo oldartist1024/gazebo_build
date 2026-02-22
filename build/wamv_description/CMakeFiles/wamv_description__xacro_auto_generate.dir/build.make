@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for wamv_description__xacro_auto_generate.
 
@@ -56,9 +56,9 @@ include wamv_description/CMakeFiles/wamv_description__xacro_auto_generate.dir/pr
 wamv_description/CMakeFiles/wamv_description__xacro_auto_generate: wamv_description/urdf/wamv_base.urdf
 
 
-wamv_description/urdf/wamv_base.urdf: /home/xzh/gazebo_build/src/wamv_description/urdf/wamv_base.urdf.xacro
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "xacro: generating urdf/wamv_base.urdf from urdf/wamv_base.urdf.xacro"
-	cd /home/xzh/gazebo_build/src/wamv_description && /home/xzh/gazebo_build/build/catkin_generated/env_cached.sh xacro -o /home/xzh/gazebo_build/build/wamv_description/urdf/wamv_base.urdf urdf/wamv_base.urdf.xacro
+wamv_description/urdf/wamv_base.urdf: /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_description/urdf/wamv_base.urdf.xacro
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xzh/Project_gazebo_build/gazebo_build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "xacro: generating urdf/wamv_base.urdf from urdf/wamv_base.urdf.xacro"
+	cd /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_description && /home/xzh/Project_gazebo_build/gazebo_build/build/catkin_generated/env_cached.sh xacro -o /home/xzh/Project_gazebo_build/gazebo_build/build/wamv_description/urdf/wamv_base.urdf urdf/wamv_base.urdf.xacro
 
 wamv_description__xacro_auto_generate: wamv_description/CMakeFiles/wamv_description__xacro_auto_generate
 wamv_description__xacro_auto_generate: wamv_description/urdf/wamv_base.urdf
@@ -72,10 +72,10 @@ wamv_description/CMakeFiles/wamv_description__xacro_auto_generate.dir/build: wam
 .PHONY : wamv_description/CMakeFiles/wamv_description__xacro_auto_generate.dir/build
 
 wamv_description/CMakeFiles/wamv_description__xacro_auto_generate.dir/clean:
-	cd /home/xzh/gazebo_build/build/wamv_description && $(CMAKE_COMMAND) -P CMakeFiles/wamv_description__xacro_auto_generate.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/wamv_description && $(CMAKE_COMMAND) -P CMakeFiles/wamv_description__xacro_auto_generate.dir/cmake_clean.cmake
 .PHONY : wamv_description/CMakeFiles/wamv_description__xacro_auto_generate.dir/clean
 
 wamv_description/CMakeFiles/wamv_description__xacro_auto_generate.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/wamv_description /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/wamv_description /home/xzh/gazebo_build/build/wamv_description/CMakeFiles/wamv_description__xacro_auto_generate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/wamv_description /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/wamv_description /home/xzh/Project_gazebo_build/gazebo_build/build/wamv_description/CMakeFiles/wamv_description__xacro_auto_generate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wamv_description/CMakeFiles/wamv_description__xacro_auto_generate.dir/depend
 

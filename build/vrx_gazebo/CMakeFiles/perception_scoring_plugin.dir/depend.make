@@ -3,11 +3,11 @@
 
 vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/perception_scoring_plugin_autogen/mocs_compilation.cpp.o: vrx_gazebo/perception_scoring_plugin_autogen/mocs_compilation.cpp
 
-vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/gazebo_build/devel/include/vrx_gazebo/Contact.h
-vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/gazebo_build/devel/include/vrx_gazebo/Task.h
-vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/perception_scoring_plugin.hh
-vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/scoring_plugin.hh
-vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/gazebo_build/src/vrx_gazebo/src/perception_scoring_plugin.cc
+vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/devel/include/vrx_gazebo/Contact.h
+vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/devel/include/vrx_gazebo/Task.h
+vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/perception_scoring_plugin.hh
+vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/include/vrx_gazebo/scoring_plugin.hh
+vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/src/perception_scoring_plugin.cc
 vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /opt/ros/noetic/include/geographic_msgs/GeoPoint.h
 vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /opt/ros/noetic/include/geographic_msgs/GeoPose.h
 vrx_gazebo/CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o: /opt/ros/noetic/include/geographic_msgs/GeoPoseStamped.h

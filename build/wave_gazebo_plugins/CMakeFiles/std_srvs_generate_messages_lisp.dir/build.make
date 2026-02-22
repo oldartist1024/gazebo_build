@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for std_srvs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build: std_sr
 .PHONY : wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 
 wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
-	cd /home/xzh/gazebo_build/build/wave_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
 
 wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/wave_gazebo_plugins /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/wave_gazebo_plugins /home/xzh/gazebo_build/build/wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/wave_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
 

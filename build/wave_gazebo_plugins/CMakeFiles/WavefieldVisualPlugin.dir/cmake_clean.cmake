@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/gazebo_build/devel/lib/libWavefieldVisualPlugin.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libWavefieldVisualPlugin.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libWavefieldVisualPlugin.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libWavefieldVisualPlugin.so"
   "CMakeFiles/WavefieldVisualPlugin.dir/src/WavefieldVisualPlugin.cc.o"
 )
 

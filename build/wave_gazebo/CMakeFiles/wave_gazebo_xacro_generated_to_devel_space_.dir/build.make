@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for wave_gazebo_xacro_generated_to_devel_space_.
 
@@ -63,10 +63,10 @@ wave_gazebo/CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/build: wa
 .PHONY : wave_gazebo/CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/build
 
 wave_gazebo/CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/clean:
-	cd /home/xzh/gazebo_build/build/wave_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
 .PHONY : wave_gazebo/CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/clean
 
 wave_gazebo/CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/wave_gazebo /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/wave_gazebo /home/xzh/gazebo_build/build/wave_gazebo/CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/wave_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo /home/xzh/Project_gazebo_build/gazebo_build/build/wave_gazebo/CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wave_gazebo/CMakeFiles/wave_gazebo_xacro_generated_to_devel_space_.dir/depend
 

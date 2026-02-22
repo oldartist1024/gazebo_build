@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/gui_task_widget_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/gui_task_widget_autogen.dir/ParseCache.txt"
   "gui_task_widget_autogen"
-  "/home/xzh/gazebo_build/devel/lib/libgui_task_widget.pdb"
-  "/home/xzh/gazebo_build/devel/lib/libgui_task_widget.so"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libgui_task_widget.pdb"
+  "/home/xzh/Project_gazebo_build/gazebo_build/devel/lib/libgui_task_widget.so"
   "CMakeFiles/gui_task_widget.dir/gui_task_widget_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/gui_task_widget.dir/src/gui_task_widget.cc.o"
 )

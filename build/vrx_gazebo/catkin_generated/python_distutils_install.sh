@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/xzh/gazebo_build/src/vrx_gazebo"
+echo_and_run cd "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/xzh/gazebo_build/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/xzh/Project_gazebo_build/gazebo_build/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/xzh/gazebo_build/install/lib/python3/dist-packages:/home/xzh/gazebo_build/build/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/xzh/gazebo_build/build" \
+    PYTHONPATH="/home/xzh/Project_gazebo_build/gazebo_build/install/lib/python3/dist-packages:/home/xzh/Project_gazebo_build/gazebo_build/build/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/xzh/Project_gazebo_build/gazebo_build/build" \
     "/usr/bin/python3" \
-    "/home/xzh/gazebo_build/src/vrx_gazebo/setup.py" \
+    "/home/xzh/Project_gazebo_build/gazebo_build/src/vrx_gazebo/setup.py" \
      \
-    build --build-base "/home/xzh/gazebo_build/build/vrx_gazebo" \
+    build --build-base "/home/xzh/Project_gazebo_build/gazebo_build/build/vrx_gazebo" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/xzh/gazebo_build/install" --install-scripts="/home/xzh/gazebo_build/install/bin"
+    --install-layout=deb --prefix="/home/xzh/Project_gazebo_build/gazebo_build/install" --install-scripts="/home/xzh/Project_gazebo_build/gazebo_build/install/bin"

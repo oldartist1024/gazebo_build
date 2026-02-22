@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/gazebo_build/src
+CMAKE_SOURCE_DIR = /home/xzh/Project_gazebo_build/gazebo_build/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/gazebo_build/build
+CMAKE_BINARY_DIR = /home/xzh/Project_gazebo_build/gazebo_build/build
 
 # Utility rule file for _run_tests_usv_gazebo_plugins.
 
@@ -63,10 +63,10 @@ usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins.dir/build: _run_test
 .PHONY : usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins.dir/build
 
 usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins.dir/clean:
-	cd /home/xzh/gazebo_build/build/usv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_usv_gazebo_plugins.dir/cmake_clean.cmake
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_usv_gazebo_plugins.dir/cmake_clean.cmake
 .PHONY : usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins.dir/clean
 
 usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins.dir/depend:
-	cd /home/xzh/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/gazebo_build/src /home/xzh/gazebo_build/src/usv_gazebo_plugins /home/xzh/gazebo_build/build /home/xzh/gazebo_build/build/usv_gazebo_plugins /home/xzh/gazebo_build/build/usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Project_gazebo_build/gazebo_build/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Project_gazebo_build/gazebo_build/src /home/xzh/Project_gazebo_build/gazebo_build/src/usv_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins /home/xzh/Project_gazebo_build/gazebo_build/build/usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : usv_gazebo_plugins/CMakeFiles/_run_tests_usv_gazebo_plugins.dir/depend
 

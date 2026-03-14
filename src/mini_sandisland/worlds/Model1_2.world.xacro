@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<sdf version="1.6" xmlns:xacro="http://ros.org/wiki/xacro">
+  <world name="Model1_2">
+    <xacro:include filename="Model1_2.xacro" />
+    <xacro:Model1_2 />
+
+    <xacro:include filename="../models/ocean_waves/model.xacro"/>
+    <xacro:ocean_waves/>
+  </world>
+</sdf>

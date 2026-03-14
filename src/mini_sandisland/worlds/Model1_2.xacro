@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<world xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="Model1_2">
+    <scene>
+      <ambient>0.85 0.85 0.85 1</ambient>
+      <background>0.75 0.85 0.95 1</background>
+      <shadows>false</shadows>
+      <sky>
+        <clouds>
+          <speed>12</speed>
+        </clouds>
+      </sky>
+      <grid>0</grid>
+      <origin_visual>0</origin_visual>
+    </scene>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <gui fullscreen="0">
+      <camera name="user_camera">
+        <pose frame="">175.544 123.61 4.70958 0 0.168 -2.40718</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+    <include>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://Model1_2</uri>
+    </include>
+  </xacro:macro>
+</world>

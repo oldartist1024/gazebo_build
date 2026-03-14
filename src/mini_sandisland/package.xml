@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mini_sandisland</name>
+  <version>0.0.1</version>
+  <description>Minimal self-contained sandisland Gazebo package.</description>
+
+  <maintainer email="xzh@example.com">xzh</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>xacro</depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>wave_gazebo_plugins</exec_depend>
+
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>

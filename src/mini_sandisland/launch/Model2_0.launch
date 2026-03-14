@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<launch>
+  <env name="ROSCONSOLE_CONFIG_FILE" value="$(find mini_sandisland)/config/custom_rosconsole.conf"/>
+  <env name="GAZEBO_MODEL_PATH" value="$(find mini_sandisland)/models:$(optenv GAZEBO_MODEL_PATH)"/>
+
+  <arg name="world" default="$(find mini_sandisland)/generated/Model2.world" />
+  <arg name="gui" default="true" />
+  <arg name="verbose" default="false"/>
+  <arg name="paused" default="false"/>
+  <arg name="extra_gazebo_args" default=""/>
+
+  <arg name="non_competition_mode" default="true"/>
+  <arg name="enable_ros_network" value="$(arg non_competition_mode)"/>
+
+  <env name="VRX_DEBUG" value="$(arg non_competition_mode)"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world)"/>
+    <arg name="verbose" value="$(arg verbose)"/>
+    <arg name="paused" value="$(arg paused)"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="enable_ros_network" value="$(arg enable_ros_network)"/>
+    <arg name="extra_gazebo_args" value="$(arg extra_gazebo_args)"/>
+  </include>
+</launch>

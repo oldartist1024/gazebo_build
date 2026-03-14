@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<sdf version="1.6" xmlns:xacro="http://ros.org/wiki/xacro">
+  <world name="Model2">
+    <xacro:include filename="Model2.xacro" />
+    <xacro:Model2 />
+
+  </world>
+</sdf>
